@@ -1,6 +1,6 @@
 {
   "name": "dew",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "The Drupal module bootstrapper.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,11 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "bin": {
-    "dew": "dist/index.js"
-  },
+  "bin": "dist/index.js",
   "files": [
-    "/dist"
+    "/dist/**/*"
   ],
   "repository": {
     "type": "git",
@@ -30,10 +28,11 @@
   },
   "homepage": "https://github.com/UniversityOfIowaHealthCare/Dew#readme",
   "devDependencies": {
+    "@types/node": "^10.12.10",
+    "@types/yargs": "^12.0.1",
     "typescript": "^3.1.6"
   },
   "dependencies": {
-    "@types/yargs": "^12.0.1",
     "yargs": "^12.0.4"
   }
 }

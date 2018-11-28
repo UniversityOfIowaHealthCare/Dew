@@ -1,0 +1,4 @@
+name: {{human_readable_name}}
+description: EDIT ME: A new module.
+core: 7.x
+package: custom

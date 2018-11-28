@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_help().
+ */
+function {{machine_name}}_help($path, $arg) {
+  switch ($path) {
+    case 'admin/help#{{machine_name}}':
+      return t('TODO');
+    }
+}

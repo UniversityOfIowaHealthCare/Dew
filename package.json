@@ -1,5 +1,5 @@
 {
-  "name": "dew",
+  "name": "@uihc/dew",
   "version": "1.0.0",
   "description": "The Drupal module bootstrapper.",
   "main": "dist/index.js",

@@ -5,8 +5,8 @@ import * as fs from 'fs'
 import {Transform} from 'stream'
 
 program
-	.version('v', '1.0.0')
 	.command('$0 <name>', 'Bootstrap a Drupal module. Defaults to Drupal 8.', {}, makeModule)
+	.alias('version', 'v')
 	.option('seven', {alias: 's', description: 'Create a module for Drupal 7'})
 	.option('default-folder', {alias: 'd', description: 'Create module in the `sites/default/` folder rather than the `sites/all/` folder.'})
 	.option('machine-name', {alias: 'm', description: 'Manually specify module\'s machine name. Must be snake case.'})

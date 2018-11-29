@@ -22,4 +22,5 @@ If you omit the machine name option (`-m` or `--machine-name`), dew will automat
   [Drupal 7 only] Create the module within the `sites/default/` folder rather than the `sites/all/` folder.
   
 ### Todo
+- Add feedback on successful creation.
 - Automate template bundling.

@@ -23,4 +23,5 @@ If you omit the machine name option (`-m` or `--machine-name`), dew will automat
   
 ### Todo
 - Add feedback on successful creation.
+- Support stand alone modules (not in a drupal project).
 - Automate template bundling.

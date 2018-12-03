@@ -1,6 +1,6 @@
 {
   "name": "@uihc/dew",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "The Drupal module bootstrapper.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

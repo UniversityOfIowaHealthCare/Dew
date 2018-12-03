@@ -89,6 +89,7 @@ function bootstrapModule(yargs: any, drupalVersion: 7 | 8 = 8) {
 
 	fs.mkdirSync(moduleDir)
 	writeModuleFiles({templateDir, moduleDir, name, humanReadableName: yargs.name}, files)
+	console.log("\x1b[32m%s\x1b[0m", 'Successfully created module with machine name ' + name)
 }
 
 interface ModuleInfo {

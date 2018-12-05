@@ -24,7 +24,10 @@ If you omit the machine name option (`-m` or `--machine-name`), dew will automat
 `--default, d`:
   [Drupal 7 only] Create the module within the `sites/default/` folder rather than the `sites/all/` folder.
   
+`--current-directory, -c`:
+  Create a module in the current directory. This option is useful, for example, if you are creating a contrib module for publishing on Drupal.org. 
+  
   
 ### Todo
-- Support stand alone modules (not in a drupal project).
 - Automate template bundling.
+- Clean up code.

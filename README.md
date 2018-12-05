@@ -15,13 +15,13 @@ $ dew "Human readable name" -m optional_machine_name
 If you omit the machine name option (`-m` or `--machine-name`), dew will automatically generate it for you by taking the human readable name you provide and converting it to lower snake case. 
 
 #### Options
-`--machine-name, m`:
+`--machine-name, -m`:
   Allows you to specify the machine name rather than having dew generate it. As per Drupal standards, this name must be represented in snake case with all lower case letters.
 
 `--seven, -s`:
   Create a Drupal 7 module. Without this option, Dew will default to Drupal 8.  
 
-`--default, d`:
+`--default, -d`:
   [Drupal 7 only] Create the module within the `sites/default/` folder rather than the `sites/all/` folder.
   
 `--current-directory, -c`:
